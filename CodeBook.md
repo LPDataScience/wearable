@@ -48,4 +48,4 @@ Type, SubjectID, and Activity are retained.
 Gather the mean of all features remaining and aggregate them by Activity and SubjectID.
 
 ## Save Data
-The collected data frame gets written to the current directory as a CSV file called `tidy.csv`.
+The collected data frame gets written to the current directory as a text file called `tidy.txt`.

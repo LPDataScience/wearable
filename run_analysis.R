@@ -63,5 +63,5 @@ conNames<-names(allData)[4:ncol(allData)]
 tidy <- aggregate(. ~ Activity + SubjectID, data=allData, FUN=mean)
 
 ## Save tidy data
-write.csv(tidy, "tidy.csv", row.names=FALSE)
-write.table(tidy, "tidy.txt")
+## write.csv(tidy, "tidy.csv", row.names=FALSE)
+write.table(tidy, "tidy.txt", row.names=FALSE)
